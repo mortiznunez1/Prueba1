@@ -42,14 +42,14 @@ scanf("%d %d %d",
    switch(iNac)
    {
        case 1:
-           printContacto(contacto[0]);
+           printContacto(contactos[0]);
            break;
         case -1:
-            printContacto(contacto[1]);
+            printContacto(contactos[1]);
             break;
         case 0:
             for (i = 0; i < N; i++)
-            printContacto(contacto[i]);
+            printContacto(contactos[i]);
             break;
        }
     return 0;
@@ -81,7 +81,7 @@ else
 if (f1.d > f2.d)
 return 1;
 else if (f1.d < f2.d)
-return -1
+return -1;
 else return 0;
 }
 }
